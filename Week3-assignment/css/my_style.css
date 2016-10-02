@@ -1,0 +1,98 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*header style*/
+#header-nav {
+  background-color: #2f020f;
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 0;
+  border: 4px solid black;
+}
+nav > div.container{
+	margin-left: 15px;
+	margin-bottom: 25px;
+}
+.navbar-brand h1 { /* Food, LLC*/
+  font-family: 'Lora', serif;
+  color: #503cff;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 1px 2px 1px #f6b319;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.navbar-toggle{
+	margin-right: 40px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #3456fa;
+}
+#nav-list{
+	background-color: #202021;
+	width: 100%;
+}
+#collapsable-nav a {
+    font-size: 1.2em;
+    color:#e1e1e1;
+}
+#collapsable-nav a:hover, #collapsable-nav a:active{
+	color: red;
+}
+
+/*end of header style*/
+
+/*content style*/
+#main-content{
+	width: 100%;
+}
+#menu{
+	font-weight: bold;
+	color: #3456fa;
+	/*text-shadow: 2px 2px #11009f;*/
+	text-shadow: 2px 2px #ff0000;
+	margin-bottom: 15px;
+}
+div > section{
+	background-color: #aaaaaa;
+	border: 1px solid black;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 2px 2px #11009f;
+
+}
+div > section h2{
+	font-weight: bold;
+	color: #09014a;
+	padding-top: 1px;
+}
+div > section > p{
+	padding: 15px;
+	text-align: justify;
+}
+
+@media (max-width: 767px) {
+	nav > div.container{
+	margin-bottom: 20px;
+	}
+	.navbar-brand h1{
+		font-size: 1.8em;
+	}
+}
+
+@media (max-width: 350px) {
+	nav > div.container{
+	margin-bottom: 10px;
+	}
+	.navbar-brand h1{
+		font-size: 1.3em;
+	}
+	.navbar-toggle{
+	margin-right: 30px;
+	}
+}
